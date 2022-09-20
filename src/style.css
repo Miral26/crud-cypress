@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 17px;
+}
+
+.main-container {
+  margin-top: 80px;
+}
+
+.main-form {
+  width: 100%;
+}
+
+.main-data-input .MuiTextField-root {
+  width: 100%;
+  margin: 12px 0px;
+}
+
+.main-data-button {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.main-data-button button {
+  width: 50%;
+}
+
+.main-data-table {
+  margin-top: 20px;
+}
+
+.table-data-edit {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+}
+/* 
+.main-data-table table {
+    position: relative;
+    height: 800px;
+    overflow-y: scroll;
+    display: block;
+} */
